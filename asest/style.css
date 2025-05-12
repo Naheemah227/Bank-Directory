@@ -135,10 +135,10 @@ ul a:hover{
         align-items: center;
         box-shadow: #002147;
         border-radius: 10px;
-        width: 100%;
+    
         margin: 0;
         box-sizing: border-box;
-        height: 100%;
+    
         justify-content: center;
         box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;;
      }

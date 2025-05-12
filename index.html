@@ -16,6 +16,8 @@
         rel="stylesheet">
     <!-- css-link -->
     <link rel="stylesheet" href="asest/style.css">
+    <!-- aos -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 </head>
 
 <body>
@@ -60,7 +62,9 @@
     <section class="top-banks">
         <h1>Top Banks Around The World </h1>
         <!-- over-all-card -->
-        <div class="cards">
+        <div class="cards " data-aos="fade-up"
+        data-aos-duration="3000">
+  
             <!-- morgan-card -->
             <div class="morgan">
                 <div class="icon">
@@ -107,6 +111,7 @@
                 </p>
             </div>
         </div>
+        </div>
     </section>
 
     <!-- footer -->
@@ -121,6 +126,11 @@
                <a href=""> <i class="fa-brands fa-linkedin-in"></i></a>
         </div>
     </section>
+    <!-- aos script -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
 
 </body>
 
